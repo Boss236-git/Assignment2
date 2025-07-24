@@ -1,0 +1,157 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+
+
+
+
+
+.nav{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+
+
+.noto{
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* Navbar style */
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 150px 0px 150px;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+
+.content-2 ul{
+    display: flex;
+    gap: 49px;
+    list-style: none;
+}
+
+
+.content-2 a{
+    text-decoration: none;
+}
+
+.hm{
+    font-weight: 700;
+    font-size: 1rem;
+    color: rgba(37, 36, 50, 1);
+}
+
+.sa{
+    font-weight: 400;
+    font-size: 1rem;
+    color: rgba(137, 135, 161, 1);
+}
+
+.scrt{
+    width: 23px;
+    margin-right: -41px;
+}
+
+.cr{
+   font-weight: 400;
+    font-size: 1rem;
+    color: black; 
+
+    
+}
+
+
+/* Banner style */
+
+.container-2{
+    display: flex;
+    margin: 200px 150px 0px 150px;
+    align-items: center;
+    padding: 10px;
+   
+   
+}
+
+.hero-flower img{
+    width: 570px;
+    height: 355px;
+}
+
+
+
+.fresh h2{
+    font-weight: bold;
+    font-size: 4rem;
+ margin-bottom: 1px;
+}
+
+.fresh p{
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.5);
+    
+}
+
+.fresh span{
+    color: rgba(233, 90, 8, 1);
+}
+
+
+/* Mobile Screen */
+
+
+@media screen and (max-width:576px) {
+  
+    .hm,.sa{
+        display: none;
+    }
+   .content-1 img{
+    width: 65px;
+    height: 38px;
+   }
+    .container{
+      margin-left: 16px;
+      margin-right: 14px;
+      margin-top: 40px;
+
+    }
+
+    .container-2{
+        flex-direction: column-reverse;
+    margin-top: 70px;
+   
+    }
+    .hero-flower img{
+        width: 413px;
+        height: 300px;
+        margin-top: -50px;
+    }
+
+    .fresh h2{
+        font-size: 27px;
+    }
+
+    .fresh{
+        width: 361px;
+        height: 147px;
+    }
+}
