@@ -113,7 +113,93 @@ body{
 
 .fresh span{
     color: rgba(233, 90, 8, 1);
+
+
 }
+
+
+/* Body style */
+
+.container-3{
+    display: flex;
+    gap: 20px;
+   justify-content: center;
+}
+
+
+.plant{
+  text-align: center;
+ justify-content: center;
+ margin: 120px 150px 0px 150px;
+}
+
+.plant h2{
+font-weight: bold;
+font-size: 3.1rem;
+margin-bottom: 16px;
+}
+
+.plant span{
+    color: rgba(233, 90, 8, 1);
+}
+
+.plant p{
+   
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.5);
+    width: 880px;
+    height: 54px;
+    margin-left: 150px;
+    margin-bottom: 16px;
+
+}
+
+.blossom img{
+    width: 260px;
+    height: 320px;
+}
+
+.blossom{
+    width: 270px; 
+    height: 470px;
+   
+    padding: 10px;
+  text-align: center;
+}
+
+.blossom h4{
+    font-size: 1rem;
+   margin-top: -5px;
+}
+
+.blossom p{
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+
+.blossom button{
+    width: 270px;
+    height: 40px;
+    background-color: rgba(233, 90, 8, 1);
+    color: white;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Mobile Screen */
@@ -148,10 +234,66 @@ body{
 
     .fresh h2{
         font-size: 27px;
+        
     }
 
     .fresh{
         width: 361px;
         height: 147px;
     }
+
+    .plant h2{
+        display: flex;
+        gap: 7px;
+        width: 39px;
+        height: 33px;
+        font-size: 24px;
+    }
+
+  .plant p{
+    width: 338px;
+    height: 68px;
+    margin-left: -110px;
+   
+  }
+    
+       .container-3{
+       display: grid;
+       grid-template-columns: repeat(2,1fr);
+       margin-top: 100px;
+    
+      
+       }
+
+       .blossom img{
+        width: 180px;
+        height: 196px;
+       margin-left: -1px;
+       
+       
+       }
+
+       .blossom button{
+        width: 178px;
+        height: 50px;
+       }
+      
+       .blossom{
+        width: 170px;
+        height: 340px;
+        margin-top: 5px;
+      
+       }
+
+       .-up{
+        margin-top: -12px;
+       }
+
+       .up{
+  margin-top: -0.1px;
+       }
+
+       .hd{
+        display: none;
+       }
 }
