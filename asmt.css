@@ -118,7 +118,7 @@ body{
 }
 
 
-/* Body style */
+/* Body style -1 */
 
 .container-3{
     display: flex;
@@ -189,6 +189,49 @@ margin-bottom: 16px;
 
 
 
+/* body style-2 */
+
+.container-4{
+    display: flex;
+    justify-content: center;
+   margin: 210px 150px 0px 150px;
+   padding: 10px;
+   gap: 70px;
+}
+
+.lover img{
+    width: 530px;
+    height: 552px;
+}
+
+.lover .trust{
+    position: absolute;
+    width: 230px;
+    height: 220px;
+    margin-left: -150px;
+    margin-top: -85px;
+}
+
+.lover-1{
+    width: 540px;
+    height: 521px;
+    
+}
+
+.lover-1 h2{
+    font-weight: bold;
+    font-size: 3.1rem;
+    margin-bottom: 25px;
+}
+
+.lover-1 li{
+font-weight: 400;
+font-size: 1.3rem;
+color: rgba(0, 0, 0, 0.5);
+margin-top: 20px;
+
+}
+
 
 
 
@@ -241,6 +284,9 @@ margin-bottom: 16px;
         width: 361px;
         height: 147px;
     }
+
+
+    
 
     .plant h2{
         display: flex;
@@ -296,4 +342,46 @@ margin-bottom: 16px;
        .hd{
         display: none;
        }
+
+     
+.trust{
+    display: none;
+}
+
+.container-4{
+    flex-direction: column;
+    margin-left: 12px;
+    margin-top: 19px;
+    
+}
+
+.lover img{
+    width: 368px;
+    height: 386px;
+
+
+}
+
+.lover-1{
+    width: 361px;
+    height: 234px;
+    margin-top: -70px;
+}
+
+
+.lover-1 h2{
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    
+    
+
+}
+
+.lover-1 li{
+    font-weight: 400;
+    font-size: 0.9rem;
+    
+}
+
 }
