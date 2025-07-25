@@ -400,6 +400,7 @@ margin: 120px 150px 0px 150px;
     padding: 10px;
     margin-top: 2px;
     border: none;
+    margin-left: -60px;
 }
 
 .container-sb button{
@@ -419,13 +420,72 @@ margin: 120px 150px 0px 150px;
     font-weight: bold;
     font-size: 50px;
     color: white;
-    margin-left: 130px;
+    margin-left: 60px;
 }
 
 
 
+/* footer style */
+
+.foter{
+    display: flex;
+    justify-content: space-around;
+    width: 1440px;
+    height: 348px;
+    align-items: center;
+    margin-left: 60px;
+}
+
+.foter-1{
+   
+   display: flex;
+    width: 1120px;
+height: 248px;
+gap: 50px;  
+}
 
 
+.img-dv{
+    width: 359px;
+    height: 179px;
+
+}
+
+.img-dv p{
+    font-weight: 400;
+    font-size: 1.3rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.foter ul{
+    list-style: none;
+  
+}
+
+
+
+.feature-dv{
+    width: 178px;
+    height: 248px;
+}
+
+.feature-dv li{
+    margin-bottom: 26px;
+    color: rgba(0, 0, 0, 0.5) ;
+}
+
+
+.logo-dv{
+    width: 239px;
+    height: 36px;
+   margin-top: 15px;
+}
+.logo-dv img{
+    display: inline-flex;
+    width: 36px;
+    height: 35px;
+    margin-right: 20px;
+}
 
 
 
@@ -624,19 +684,21 @@ margin-left: 30px;
  
   
     .container-sb{
-        width: 100%;
+        width: 420px;
         height: 276px;
+        
 
     }
 
     .container-sb h2{
         font-size: 20px;
-        margin-left: 60px;
+        margin-left: 40px;
     }
 
     .container-sb input{
         width: 218px;
         height: 30px;
+        margin-left: -10px;
     }
 
     .container-sb button{
@@ -644,5 +706,32 @@ margin-left: 30px;
         height: 50px;
         margin-left: -2px;
     }
+
+    .foter, .foter-1{
+        
+       flex-direction: column;
+       width: 95px;
+       margin-right: 70px;
+      
+    }
+
+   .feature-dv {
+    margin-left: -35px;
+    margin-top: -30px;
+   
+
+  
+   
+   }
+
+   .op{
+    margin-top: -70px;
+   }
+
+   .logo-dv{
+     margin-top: -50px; 
+   
+    
+   }
 } 
 
