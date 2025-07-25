@@ -267,8 +267,7 @@ margin: 120px 150px 0px 150px;
 
 .text-img{
     
-    /* position: absolute;
- margin-right: -7px; */
+    
    position: absolute;
   top: 50%;
   left: 70%;
@@ -293,10 +292,7 @@ margin: 120px 150px 0px 150px;
 }
 
 .text-img a{
-    /* font-weight: 600;
-    font-size: 1.75rem;
-    color: white;
-    margin-left: 130px; */
+  
    
    display: inline-block;
    font-weight: 700;
@@ -379,6 +375,56 @@ margin: 120px 150px 0px 150px;
 .deals span{
     color: rgba(233, 90, 8, 1);
 }
+
+
+
+
+/* body style - 4 */
+
+
+.container-sb{
+
+    background-color: rgba(7, 51, 79, 0.4);
+    height: 523px;
+    width: 1555px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+.container-sb input{
+        position: relative;
+    width: 633px;
+    height: 29px;
+    padding: 10px;
+    margin-top: 2px;
+    border: none;
+}
+
+.container-sb button{
+    position: absolute;
+    width: 186px;
+    height:49px;
+    padding: 12px;
+    margin-left: -12px;
+    background-color: rgba(233, 90, 8, 1);
+    border: none;
+    color: white;
+    font-weight: bold;
+    margin-top: 2px;
+}
+
+.container-sb h2{
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
+    margin-left: 130px;
+}
+
+
+
+
 
 
 
@@ -577,6 +623,26 @@ margin-left: 30px;
     }
  
   
-    
+    .container-sb{
+        width: 100%;
+        height: 276px;
+
+    }
+
+    .container-sb h2{
+        font-size: 20px;
+        margin-left: 60px;
+    }
+
+    .container-sb input{
+        width: 218px;
+        height: 30px;
+    }
+
+    .container-sb button{
+        width: 103px;
+        height: 50px;
+        margin-left: -2px;
+    }
 } 
 
